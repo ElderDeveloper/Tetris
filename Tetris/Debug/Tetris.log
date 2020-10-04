@@ -1,0 +1,11 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ) referenced in function _main
+C:\SFML-2.5.1\lib\sfml-graphics-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFML-2.5.1\lib\sfml-window-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFML-2.5.1\lib\sfml-system-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFML-2.5.1\lib\sfml-audio-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\OtherProjects\Tetris\Debug\Tetris.exe : fatal error LNK1120: 5 unresolved externals
